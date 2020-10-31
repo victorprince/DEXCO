@@ -1,0 +1,6 @@
+matplotlib
+pdf2image
+numpy
+language-check
+google-cloud-vision
+re
