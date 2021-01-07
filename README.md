@@ -1,6 +1,6 @@
 # DEXCO
 
-TimathonCodeJam submission
+
 
 ## WHY DEXCO?
 Due to the current pandemic situation,it has become a difficult job for
