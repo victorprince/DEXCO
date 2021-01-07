@@ -40,8 +40,7 @@ Create an account in the [Google Cloud Vision API website](https://cloud.google.
 ```
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']=r"ENTER THE TOKEN FILE LOCATION HERE(JSON FILE,AUTH TOKEN)"
 ```
-If you face any difficulty while configuring the API
-watch [this](https://www.youtube.com/watch?v=xKvffLRSyPk) video.
+
 
 Now run the file 
 ```
