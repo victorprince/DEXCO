@@ -144,7 +144,7 @@ def screen1():
     nbutton=Button(frame,text="NEXT",relief=RAISED,command=screen2)
     aboutstring="DEXCO-An open source answer paper evaluating software developed with the help of python.This software is capable of correcting handwritten papers,printed text papers and can check for grammatical errors,keyword errors and so on.."
     about.insert(END,aboutstring)
-    statusbar=Label(frame,text="*V1KK1", bd=2, relief=SUNKEN, anchor=E,bg="lightgrey")
+    statusbar=Label(frame,text="*powell,farhan,victor", bd=2, relief=SUNKEN, anchor=E,bg="lightgrey")
     dlabel1=Label(frame,bg="lightgrey")
     dlabel2 = Label(frame,bg="lightgrey")
     dlabel3 = Label(frame,bg="lightgrey")
