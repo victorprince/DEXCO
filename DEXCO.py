@@ -1,8 +1,8 @@
 from tkinter import*
 from tkinter import ttk
+from tkinter import filedialog
 import matplotlib.pyplot as plt
 import language_check
-from tkinter import filedialog
 from pdf2image import*
 import numpy as np
 from pdf2image.exceptions import (
@@ -90,8 +90,6 @@ class backend:
         global anslist
         global marks
         km=0
-        kt=0
-        lt=[]
         anslist=[]
         ans=ans.lower()
         ans=ans.split()
@@ -117,7 +115,6 @@ class backend:
         print(marks)
 
     def deli(self):
-        s=""
         for i in range(0,count):
             s="ans"+str(i)+".jpeg"
             os.remove(s)
